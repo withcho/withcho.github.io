@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all">
+<meta charset="utf-8">
+<title>Simple Map Sample</title>
+<meta charset="utf-8">
+<style>
+/* マップを表示する div 要素の高さを必ず明示的に指定します。 */
+#map {
+  height: 400px;
+  width: 600px;
+}
+</style>
 </head>
+  
 <body>
-<div> 
-  <h1>Hello World</h1>
-  <div style="z-index: 3; position: absolute; height: 100%; width: 100%; padding: 0px; border-width: 0px; margin: 0px; left: 0px; top: 0px; touch-action: pan-x pan-y;">
-  <img src="images/map.jpg" alt="world map" style="width: 100%;">
-  </div>
-</div>
+<div id="map"></div><!-- 地図を表示する div 要素（id="map"）-->
+<script>
+  var map;
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      center: {lat: -34.397, lng: 150.644},
+      zoom: 8
+    });
+  }
+</script> 
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDklN-sD994VeX5zoOD0oit7JD11IyGRcc&callback=initMap" async defer></script>
 </body>
 </html>
