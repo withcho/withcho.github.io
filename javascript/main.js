@@ -5,6 +5,7 @@ $(function(){
     $('.menu-wrap').removeClass('hide-menu');
     var elements = document.getElementsByClassName("Menu");
     elements[0].innerHTML = "Close";
+    this.classList.toggle("Close");
   });
 
   // CLOSEを押すとhide-menuクラスが付与されてポップアップメニューが閉じる
@@ -12,6 +13,7 @@ $(function(){
     $('.menu-wrap').addClass('hide-menu');
     var elements = document.getElementsByClassName("Close");
     elements[0].innerHTML = "Menu";
+    this.classList.toggle("Menu");
   });
 
 });
