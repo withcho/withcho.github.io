@@ -30,3 +30,21 @@
   color: white;
   cursor: pointer;
 }
+
+#menu-wrap {
+  position: absolute;
+  z-index: 1;
+  bottom: 31px;
+  left: 0;
+  width: 100%;
+  height: calc(100% - 31px);
+  text-align: center;
+  background: white;
+  background-image: url(/images/texture.png);
+  opacity: 0.6;
+  display: none;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
