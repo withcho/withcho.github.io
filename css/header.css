@@ -1,6 +1,6 @@
 #Navbar {
   position: absolute;
-  background: rgba(255, 255, 255, 0.6);
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0) 100%);
   z-index: 200;
   bottom: 0;
   left: 0;
