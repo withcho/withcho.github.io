@@ -14,8 +14,8 @@
   z-index: 1;
   bottom: 31px;
   left: 0;
-  width: calc(100% - 31px);
-  height: 100%;
+  width: 100%;
+  height: calc(100% - 31px);
   text-align: center;
   background: white;
   background-image: url(/images/texture.png);
