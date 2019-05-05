@@ -1,17 +1,25 @@
 #Navbar {
   z-index: 1;
   position: absolute;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0) 100%);
   left: 0;
   right: 0;
   bottom: 0;
   height: 50px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0) 100%);
 }
 
 #Menu {
   z-index: 2;
   position: absolute;
-  background-color: white;
   left: 50%;
   bottom: 0;
+  border-radius: 4px;
+  background-color: white;
+  text-align: center;
+  line-height: 1.125rem;
+  padding: .5rem 1rem;
+  margin: 0;
+  height: auto;
+  border: 1px solid transparent;
+  vertical-align: middle;
 }
