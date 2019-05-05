@@ -8,3 +8,30 @@
   left: 0px;
   top: 0px;
 }
+
+.menu-wrap {
+  position: absolute;
+  /* 他の要素より上に来るようz-indexを指定 */
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+  background: white;
+  opacity: 0.6;
+  /* ポップアップメニューが展開する（閉じる）起点を指定 */
+  transform-origin: bottom;
+  /* ポップアップの速度を指定 */
+  transition: all 300ms ease;
+}
+
+.menu-item {
+  margin-bottom: 20px;
+}
+
+.hide-menu {
+  /* ポップアップメニューが展開する（閉じる）方向を指定 */
+  transform: scale(1, 0);
+}
