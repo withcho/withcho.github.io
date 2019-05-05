@@ -1,3 +1,7 @@
-$('#Menu').on('click', function() {
-  $('.menu-wrap').slideToggle('slow');
+$(function(){
+  
+  $('#Menu').on('click', function() {
+    $('.menu-wrap').slideToggle('slow');
+  });
+
 });
