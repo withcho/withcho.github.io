@@ -20,6 +20,7 @@
   padding: 20px;
   text-align: center;
   background: white;
+  background-image: url(/images/texture.png);
   opacity: 0.6;
   /* ポップアップメニューが展開する（閉じる）起点を指定 */
   transform-origin: bottom;
