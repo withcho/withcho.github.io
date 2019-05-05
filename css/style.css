@@ -14,7 +14,7 @@
   z-index: 1;
   bottom: 31px;
   left: 0;
-  width: 100%;
+  width: calc(100% - 31px);
   height: 100%;
   text-align: center;
   background: white;
