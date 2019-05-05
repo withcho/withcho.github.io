@@ -15,11 +15,9 @@
   bottom: 0;
   border-radius: 4px;
   background-color: white;
+  margin: 0 auto;
+  height: 55px;
+  width: 100px;
   text-align: center;
-  line-height: 1.125rem;
-  padding: .5rem 1rem;
-  margin: 0;
-  height: auto;
-  border: 1px solid transparent;
   vertical-align: middle;
 }
