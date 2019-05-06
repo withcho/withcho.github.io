@@ -46,9 +46,10 @@
 
 #menu-list {
   list-style-position: inside;
-  margin: 200px auto;
 }
 
 .menu-item {
   margin-bottom: 20px;
+  
+  left:50%;
 }
