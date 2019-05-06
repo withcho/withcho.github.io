@@ -23,8 +23,8 @@ a:active { color: #1C1C1C; text-decoration: none; }
   font-size: 50px;
   font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   display: block;
-  color: #ffcfa3;
-  text-shadow: 0 8px 9px #aa9d88, 0px -2px 1px #f7e8dc;
+  color: #1C1C1C;
+  text-shadow: 0 8px 9px #aa9d88, 0px -2px 1px #434343;
   font-weight: bold;
   letter-spacing: -4px;
   text-align: center;
