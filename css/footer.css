@@ -43,7 +43,7 @@
   background-image: url(/images/texture.png);
   opacity: 0.6;
   display: none;
-  font-size: 26px;
+  font-size: 24px;
   font-family: Arial;
 }
 
@@ -55,5 +55,5 @@
 }
 
 .menu-item {
-  margin-bottom: 20px;  
+  margin-bottom: 30px;  
 }
