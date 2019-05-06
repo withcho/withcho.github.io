@@ -61,12 +61,12 @@ function initMap() {
 }
 
 function calcRoute() {
-  var start = new google.maps.LatLng(40.748541, -73.985758);  
-  var end = new google.maps.LatLng(40.752741,-73.9772);  
+  var start = new google.maps.LatLng(35.689614, 139.691585);  
+  var end = new google.maps.LatLng(34.669390, 135.494953);  
   var request = {
     origin: start,
     destination: end,
-    travelMode: 'WALKING'
+    travelMode: 'DRIVING'
   };
   directionsService.route(request, function(result, status) {
     if (status == 'OK') {
