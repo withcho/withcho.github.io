@@ -46,9 +46,7 @@
 }
 
 #menu-list {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin: 100px auto;
 }
 
 .menu-item {
