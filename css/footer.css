@@ -29,6 +29,7 @@
   font-family: Century Gothic;
   color: white;
   cursor: pointer;
+  overflow: hidden;
 }
 
 #menu-wrap {
