@@ -56,4 +56,9 @@ function initMap() {
       }
     ]
   });
+  
+  marker = new google.maps.Marker({
+    position: {lat: 35.689614, lng: 139.691585},
+    map: map
+  });
 }
