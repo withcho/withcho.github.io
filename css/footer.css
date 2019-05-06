@@ -39,6 +39,7 @@
   width: 100%;
   height: calc(100% - 31px);
   text-align: center;
+  vertical-align: middle;
   background: white;
   background-image: url(/images/texture.png);
   opacity: 0.6;
@@ -46,7 +47,6 @@
 }
 
 #menu-list {
-  margin: auto;
 }
 
 .menu-item {
