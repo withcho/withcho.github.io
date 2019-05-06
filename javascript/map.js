@@ -61,10 +61,8 @@ function initMap() {
       }
     ]
   });
+  
   directionsDisplay.setMap(map); 
-}
-
-function calcRoute() {
   var start = new google.maps.LatLng(35.689614, 139.691585);  
   var end = new google.maps.LatLng(34.669390, 135.494953);  
   var request = {
