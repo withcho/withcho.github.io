@@ -82,6 +82,10 @@ function initMap() {
   //DirectionsService のオブジェクトのメソッド route() にリクエストを渡し、
   //コールバック関数で結果を setDirections(result) で directionsRenderer にセットして表示
   directionsService.route(request, function(result, status) {
-    directionsRenderer.setDirections(result);
+    if (status === 'OK') {
+      directionsRenderer.setDirections(result); //取得したルート（結果：result）をセット
+    }else{
+      alert("取得できませんでした：" + status);
+    }
   });
 }
