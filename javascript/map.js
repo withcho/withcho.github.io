@@ -1,5 +1,6 @@
 var map;
 var marker;
+var infoWindow;
 
 function initMap() {
   map = new google.maps.Map(document.getElementById('map'), {
@@ -62,5 +63,13 @@ function initMap() {
   marker = new google.maps.Marker({
     position: {lat: 35.689614, lng: 139.691585},
     map: map
+  });
+  
+  infoWindow = new google.maps.InfoWindow({
+    content: '<div>東京</div>'
+  });
+  
+  marker.addListener('click', function() {
+    infoWindow.open(map, marker);
   });
 }
