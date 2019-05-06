@@ -32,7 +32,7 @@
 }
 
 #menu-wrap {
-  position: absolute;
+  position: relative;
   z-index: 1;
   bottom: 31px;
   left: 0;
