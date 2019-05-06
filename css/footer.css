@@ -45,6 +45,8 @@
 }
 
 #menu-list {
+  list-style-position: inside;
+  
 }
 
 .menu-item {
