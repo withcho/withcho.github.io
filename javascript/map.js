@@ -62,7 +62,7 @@ function initMap() {
 
 function calcRoute() {
   var start = new google.maps.LatLng(40.748541, -73.985758);  
-  var end = new google.maps.LatLng( 40.752741,-73.9772);  
+  var end = new google.maps.LatLng(40.752741,-73.9772);  
   var request = {
     origin: start,
     destination: end,
