@@ -73,6 +73,7 @@ function calcRoute() {
     travelMode: 'DRIVING'
   };
   directionsService.route(request, function(result, status) {
+    console.log(result);
     if (status == 'OK') {
       directionsDisplay.setDirections(result);
     }
