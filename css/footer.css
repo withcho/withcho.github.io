@@ -1,5 +1,5 @@
 #Navbar {
-  z-index: 1;
+  z-index: 4;
   position: absolute;
   left: 0;
   right: 0;
@@ -10,7 +10,7 @@
 }
 
 #Menu {
-  z-index: 2;
+  z-index: 5;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -33,7 +33,7 @@
 
 #menu-wrap {
   position: absolute;
-  z-index: 1;
+  z-index: 4;
   bottom: 31px;
   left: 0;
   width: 100%;
