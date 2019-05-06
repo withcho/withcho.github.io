@@ -48,7 +48,6 @@
 
 #menu-list {
   list-style-position: inside;
-  padding-left: 0;
   display: inline-block;
   text-align: left;
   margin-top: 180px;
@@ -56,6 +55,4 @@
 
 .menu-item {
   margin-bottom: 20px;  
-  font-weight: 500;
-  text-shadow: 0 2px 1px white, 0px -2px 1px white;
 }
