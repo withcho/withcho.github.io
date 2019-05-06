@@ -45,6 +45,10 @@
   display: none;
 }
 
+#menu-list {
+  margin: auto auto;
+}
+
 .menu-item {
   margin-bottom: 20px;
 }
