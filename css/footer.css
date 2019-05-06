@@ -50,6 +50,7 @@
   padding-left: 0;
   display: inline-block;
   text-align: left;
+  top: calc(50% - 50px);
 }
 
 .menu-item {
