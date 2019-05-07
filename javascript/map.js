@@ -76,21 +76,21 @@ function initMap() {
           // URL
           '/images/pin.png',
           // (width,height)
-          new google.maps.Size(24, 24),
+          //new google.maps.Size(24, 24),
           // The origin point (x,y)
-          new google.maps.Point(12, 0),
+          //new google.maps.Point(12, 0),
           // The anchor point (x,y)
-          new google.maps.Point(12, 24)
+          //new google.maps.Point(12, 24)
         ),
         end: new google.maps.MarkerImage(
           // URL
           '/images/pin.png',
           // (width,height)
-          new google.maps.Size(24, 24),
+          //new google.maps.Size(24, 24),
           // The origin point (x,y)
-          new google.maps.Point(12, 0),
+          //new google.maps.Point(12, 0),
           // The anchor point (x,y)
-          new google.maps.Point(12, 24)
+          //new google.maps.Point(12, 24)
         )
       };
       makeMarker(start, icons.start, "start", map);
