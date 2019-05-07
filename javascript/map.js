@@ -71,6 +71,40 @@ function initMap() {
         preserveViewport: true,
         suppressMarkers: true
       });
+      makeMarker(start, icons.start, "start", map);
+      makeMarker(end, icons.end, "end", map);
     }
   });
 }
+
+function makeMarker(position, icon, title, map) {
+  new google.maps.Marker({
+    position: position,
+    map: map,
+    icon: icon,
+    title: title
+  });
+}
+
+var icons = {
+  start: new google.maps.MarkerImage(
+    // URL
+    '/images/pin.png',
+    // (width,height)
+    //new google.maps.Size(44, 32),
+    // The origin point (x,y)
+    //new google.maps.Point(0, 0),
+    // The anchor point (x,y)
+    //new google.maps.Point(22, 32)
+  ),
+  end: new google.maps.MarkerImage(
+    // URL
+    '/images/pin.png',
+    // (width,height)
+    //new google.maps.Size(44, 32),
+    // The origin point (x,y)
+    //new google.maps.Point(0, 0),
+    // The anchor point (x,y)
+    //new google.maps.Point(22, 32)
+  )
+};
