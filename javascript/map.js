@@ -73,24 +73,10 @@ function initMap() {
       });
       var icons = {
         start: new google.maps.MarkerImage(
-          // URL
-          '/images/pin.png',
-          // (width,height)
-          //new google.maps.Size(24, 24),
-          // The origin point (x,y)
-          //new google.maps.Point(12, 0),
-          // The anchor point (x,y)
-          //new google.maps.Point(12, 24)
+          '/images/pin.png'
         ),
         end: new google.maps.MarkerImage(
-          // URL
-          '/images/pin.png',
-          // (width,height)
-          //new google.maps.Size(24, 24),
-          // The origin point (x,y)
-          //new google.maps.Point(12, 0),
-          // The anchor point (x,y)
-          //new google.maps.Point(12, 24)
+          '/images/pin.png'
         )
       };
       makeMarker(start, icons.start, "start", map);
