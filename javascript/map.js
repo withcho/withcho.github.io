@@ -71,16 +71,9 @@ function initMap() {
         preserveViewport: true,
         suppressMarkers: true
       });
-      var icons = {
-        start: new google.maps.MarkerImage(
-          '/images/pin.png'
-        ),
-        end: new google.maps.MarkerImage(
-          '/images/pin.png'
-        )
-      };
-      makeMarker(start, icons.start, "start", map);
-      makeMarker(end, icons.end, "end", map);
+      var icon = new google.maps.MarkerImage('/images/pin.png');
+      makeMarker(start, icon, "start", map);
+      makeMarker(end, icon, "end", map);
     }
   });
 }
