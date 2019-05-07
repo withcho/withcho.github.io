@@ -1,6 +1,7 @@
 function initMap() {
   var rendererOptions = {
-    preserveViewport:true
+    preserveViewport: true,
+    suppressMarkers: true
   };
   var directionsService = new google.maps.DirectionsService();
   var directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);
