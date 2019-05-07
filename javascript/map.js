@@ -69,7 +69,10 @@ function initMap() {
         map: map,
         directions: result,
         preserveViewport: true,
-        suppressMarkers: true
+        suppressMarkers: true,
+        polylineOptions: {
+          strokeOpacity: 0.5
+        }
       });
       var icon = new google.maps.MarkerImage('/images/pin.png');
       makeMarker(start1, icon, "start1", map);
@@ -89,7 +92,10 @@ function initMap() {
         map: map,
         directions: result,
         preserveViewport: true,
-        suppressMarkers: true
+        suppressMarkers: true,
+        polylineOptions: {
+          strokeOpacity: 0.5
+        }
       });
       var icon = new google.maps.MarkerImage('/images/pin.png');
       makeMarker(start2, icon, "start2", map);
