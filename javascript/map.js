@@ -1,10 +1,4 @@
 function initMap() {
-  var rendererOptions = {
-    preserveViewport: true,
-    suppressMarkers: true
-  };
-  var directionsService = new google.maps.DirectionsService();
-  var directionsDisplay = new google.maps.DirectionsRenderer(rendererOptions);
   var map = new google.maps.Map(document.getElementById('map'), {
     center: new google.maps.LatLng(35.689614, 139.691585),
     zoom: 3,
@@ -61,8 +55,7 @@ function initMap() {
       }
     ]
   });
-  
-  directionsDisplay.setMap(map); 
+ 
   var start = new google.maps.LatLng(35.689614, 139.691585);  
   var end = new google.maps.LatLng(34.669390, 135.494953);  
   var request = {
@@ -70,9 +63,14 @@ function initMap() {
     destination: end,
     travelMode: 'DRIVING'
   };
-  directionsService.route(request, function(result, status) {
+  new google.maps.DirectionsService().route(request, function(result, status) {
     if (status == 'OK') {
-      directionsDisplay.setDirections(result);
+      new google.maps.DirectionsRenderer({
+        map: map,
+        directions: result,
+        preserveViewport: true,
+        suppressMarkers: true
+      });
     }
   });
 }
