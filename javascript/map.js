@@ -72,7 +72,8 @@ function initMap() {
         suppressMarkers: true,
         polylineOptions: {
           strokeOpacity: 0.35,
-          strokeColor: "black"
+          strokeColor: "black",
+          strokeWeight: 10
         }
       });
       var icon = new google.maps.MarkerImage('/images/pin.png');
@@ -96,7 +97,8 @@ function initMap() {
         suppressMarkers: true,
         polylineOptions: {
           strokeOpacity: 0.35,
-          strokeColor: "black"
+          strokeColor: "black",
+          strokeWeight: 10
         }
       });
       var icon = new google.maps.MarkerImage('/images/pin.png');
