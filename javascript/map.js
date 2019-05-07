@@ -56,14 +56,14 @@ function initMap() {
     ]
   });
  
-  var start = new google.maps.LatLng(35.689614, 139.691585);  
-  var end = new google.maps.LatLng(34.669390, 135.494953);  
-  var request = {
-    origin: start,
-    destination: end,
+  var start1 = new google.maps.LatLng(35.689614, 139.691585);  
+  var end1 = new google.maps.LatLng(34.669390, 135.494953);  
+  var request1 = {
+    origin: start1,
+    destination: end1,
     travelMode: 'DRIVING'
   };
-  new google.maps.DirectionsService().route(request, function(result, status) {
+  new google.maps.DirectionsService().route(request1, function(result, status) {
     if (status == 'OK') {
       new google.maps.DirectionsRenderer({
         map: map,
@@ -72,8 +72,28 @@ function initMap() {
         suppressMarkers: true
       });
       var icon = new google.maps.MarkerImage('/images/pin.png');
-      makeMarker(start, icon, "start", map);
-      makeMarker(end, icon, "end", map);
+      makeMarker(start1, icon, "start1", map);
+      makeMarker(end1, icon, "end1", map);
+    }
+  });
+  var start2 = new google.maps.LatLng(39.904844, 116.401543);  
+  var end2 = new google.maps.LatLng(31.227831, 121.482083);  
+  var request2 = {
+    origin: start2,
+    destination: end2,
+    travelMode: 'DRIVING'
+  };
+  new google.maps.DirectionsService().route(request2, function(result, status) {
+    if (status == 'OK') {
+      new google.maps.DirectionsRenderer({
+        map: map,
+        directions: result,
+        preserveViewport: true,
+        suppressMarkers: true
+      });
+      var icon = new google.maps.MarkerImage('/images/pin.png');
+      makeMarker(start2, icon, "start2", map);
+      makeMarker(end2, icon, "end2", map);
     }
   });
 }
