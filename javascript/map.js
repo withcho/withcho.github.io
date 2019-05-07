@@ -71,6 +71,28 @@ function initMap() {
         preserveViewport: true,
         suppressMarkers: true
       });
+      var icons = {
+        start: new google.maps.MarkerImage(
+          // URL
+          '/images/pin.png',
+          // (width,height)
+          new google.maps.Size(24, 24),
+          // The origin point (x,y)
+          new google.maps.Point(12, 0),
+          // The anchor point (x,y)
+          new google.maps.Point(12, 24)
+        ),
+        end: new google.maps.MarkerImage(
+          // URL
+          '/images/pin.png',
+          // (width,height)
+          new google.maps.Size(24, 24),
+          // The origin point (x,y)
+          new google.maps.Point(12, 0),
+          // The anchor point (x,y)
+          new google.maps.Point(12, 24)
+        )
+      };
       makeMarker(start, icons.start, "start", map);
       makeMarker(end, icons.end, "end", map);
     }
@@ -85,26 +107,3 @@ function makeMarker(position, icon, title, map) {
     title: title
   });
 }
-
-var icons = {
-  start: new google.maps.MarkerImage(
-    // URL
-    '/images/pin.png',
-    // (width,height)
-    new google.maps.Size(24, 24),
-    // The origin point (x,y)
-    new google.maps.Point(12, 0),
-    // The anchor point (x,y)
-    new google.maps.Point(12, 24)
-  ),
-  end: new google.maps.MarkerImage(
-    // URL
-    '/images/pin.png',
-    // (width,height)
-    new google.maps.Size(24, 24),
-    // The origin point (x,y)
-    new google.maps.Point(12, 0),
-    // The anchor point (x,y)
-    new google.maps.Point(12, 24)
-  )
-};
