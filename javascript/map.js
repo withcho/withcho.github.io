@@ -71,7 +71,7 @@ function initMap() {
         preserveViewport: true,
         suppressMarkers: true,
         polylineOptions: {
-          strokeOpacity: 0.25,
+          strokeOpacity: 0.35,
           strokeColor: "black"
         }
       });
@@ -95,7 +95,7 @@ function initMap() {
         preserveViewport: true,
         suppressMarkers: true,
         polylineOptions: {
-          strokeOpacity: 0.25,
+          strokeOpacity: 0.35,
           strokeColor: "black"
         }
       });
