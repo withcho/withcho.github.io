@@ -65,6 +65,7 @@ function initMap() {
   };
   new google.maps.DirectionsService().route(request1, function(result, status) {
     if (status == 'OK') {
+      console.log(result);
       new google.maps.DirectionsRenderer({
         map: map,
         directions: result,
