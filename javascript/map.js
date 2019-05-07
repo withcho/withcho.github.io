@@ -73,7 +73,7 @@ function initMap() {
         polylineOptions: {
           strokeOpacity: 0.35,
           strokeColor: "black",
-          strokeWeight: 10
+          strokeWeight: 5
         }
       });
       var icon = new google.maps.MarkerImage('/images/pin.png');
@@ -98,7 +98,7 @@ function initMap() {
         polylineOptions: {
           strokeOpacity: 0.35,
           strokeColor: "black",
-          strokeWeight: 10
+          strokeWeight: 5
         }
       });
       var icon = new google.maps.MarkerImage('/images/pin.png');
