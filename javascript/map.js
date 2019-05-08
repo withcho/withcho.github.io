@@ -55,15 +55,20 @@ function initMap() {
       }
     ]
   });
- 
-  var start1 = new google.maps.LatLng(35.689614, 139.691585);  
-  var end1 = new google.maps.LatLng(34.669390, 135.494953);  
-  var request1 = {
-    origin: start1,
-    destination: end1,
+
+  calculateAndDisplayRoute(map);
+}
+
+function calculateAndDisplayRoute(map) {
+  // America Route
+  var start_us = new google.maps.LatLng(37.939978, -122.325833);  
+  var end_us = new google.maps.LatLng(40.712050, -74.043890);  
+  var request_us = {
+    origin: start_us,
+    destination: end_us,
     travelMode: 'DRIVING'
   };
-  new google.maps.DirectionsService().route(request1, function(result, status) {
+  new google.maps.DirectionsService().route(request_us, function(result, status) {
     if (status == 'OK') {
       console.log(result);
       new google.maps.DirectionsRenderer({
@@ -78,10 +83,12 @@ function initMap() {
         }
       });
       var icon = new google.maps.MarkerImage('/images/pin.png');
-      makeMarker(start1, icon, "start1", map);
-      makeMarker(end1, icon, "end1", map);
+      makeMarker(start_us, icon, "start_us", map);
+      makeMarker(end_us, icon, "end_us", map);
     }
   });
+
+  // Australia Route
   var start2 = new google.maps.LatLng(39.904844, 116.401543);  
   var end2 = new google.maps.LatLng(31.227831, 121.482083);  
   var request2 = {
