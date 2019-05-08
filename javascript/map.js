@@ -72,6 +72,7 @@ function calculateAndDisplayRoute(map) {
     { location: new google.maps.LatLng(36.059168, -112.109308) },
     { location: new google.maps.LatLng(36.901534, -111.452688) },
     { location: new google.maps.LatLng(37.006504, -110.214807) },
+    { location: new google.maps.LatLng(32.790702, -106.324944) },
   ];
   var request_us = {
     origin: start_us,
