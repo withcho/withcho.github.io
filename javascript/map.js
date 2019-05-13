@@ -64,14 +64,14 @@ function calculateAndDisplayRoute(map) {
   var start_us = new google.maps.LatLng(37.939978, -122.325833);
   var end_us = new google.maps.LatLng(40.712050, -74.043890);
   var waypoints_us = [
-    { location: new google.maps.LatLng(34.010350, -118.496184) },
-    { location: new google.maps.LatLng(33.008058, -116.955410) },
-    { location: new google.maps.LatLng(33.254149, -115.472654) },
-    { location: new google.maps.LatLng(36.138250, -115.096837) },
-    { location: new google.maps.LatLng(34.866481, -111.759951) },
-    { location: new google.maps.LatLng(36.059168, -112.109308) },
-    { location: new google.maps.LatLng(36.901534, -111.452688) },
-    { location: new google.maps.LatLng(37.006504, -110.214807) },
+    new google.maps.LatLng(34.010350, -118.496184),
+    new google.maps.LatLng(33.008058, -116.955410),
+    new google.maps.LatLng(33.254149, -115.472654),
+    new google.maps.LatLng(36.138250, -115.096837),
+    new google.maps.LatLng(34.866481, -111.759951),
+    new google.maps.LatLng(36.059168, -112.109308),
+    new google.maps.LatLng(36.901534, -111.452688),
+    new google.maps.LatLng(37.006504, -110.214807),
   ];
   var request_us = {
     origin: start_us,
