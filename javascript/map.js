@@ -96,6 +96,9 @@ function calculateAndDisplayRoute(map) {
       var icon = new google.maps.MarkerImage('/images/pin.png');
       makeMarker(start_us, icon, "start_us", map);
       makeMarker(end_us, icon, "end_us", map);
+      for (i=0; i<waypoints_us.length; i++) {
+        makeMarker(waypoints_us[i], icon, "waypoint", map);
+      }
     }
   });
 
