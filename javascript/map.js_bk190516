@@ -81,7 +81,6 @@ function calculateAndDisplayRoute(map) {
   };
   new google.maps.DirectionsService().route(request_us, function(result, status) {
     if (status == 'OK') {
-      console.log(result);
       new google.maps.DirectionsRenderer({
         map: map,
         directions: result,
@@ -96,9 +95,6 @@ function calculateAndDisplayRoute(map) {
       var icon = new google.maps.MarkerImage('/images/pin.png');
       makeMarker(start_us, icon, "start_us", map);
       makeMarker(end_us, icon, "end_us", map);
-      for (i=0; i<waypoints_us.length; i++) {
-        makeMarker(waypoints_us[i], icon, "waypoint", map);
-      }
     }
   });
 
