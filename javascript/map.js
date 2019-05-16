@@ -75,6 +75,7 @@ function calculateAndDisplayRoute(map) {
   ];
   
   var start_us = null, waypoints_us = [], end_us = null;
+  var request_us = {};
   var request_us_index = 0;
   
   for (var i = 0; i < points_us.length; i++) {
@@ -87,7 +88,7 @@ function calculateAndDisplayRoute(map) {
     else if (waypoints.length == 8 || i == points_us.length - 1) {
       end_us = points_us[i];
   
-      var request_us[request_us_index] = {
+      request_us[request_us_index] = {
         origin: start_us,
         destination: end_us,
         waypoints: waypoints_us,
