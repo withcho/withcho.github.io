@@ -62,7 +62,7 @@ function initMap() {
 function calculateAndDisplayRoute(map) {
   // America Route
   var points_us = [
-    new google.maps.LatLng(37.939978, -122.325833),
+    //new google.maps.LatLng(37.939978, -122.325833),
     new google.maps.LatLng(34.010350, -118.496184),
     new google.maps.LatLng(33.008058, -116.955410),
     new google.maps.LatLng(33.254149, -115.472654),
