@@ -85,7 +85,7 @@ function calculateAndDisplayRoute(map) {
       start_us = points_us[i];
     }
     // 終了経緯度をセット
-    else if (waypoints.length == 8 || i == points_us.length - 1) {
+    else if (waypoints_us.length == 8 || i == points_us.length - 1) {
       end_us = points_us[i];
   
       request_us[request_us_index] = {
@@ -112,12 +112,12 @@ function calculateAndDisplayRoute(map) {
         }
       });
       request_us_index++;
-      start_us = points[i];
+      start_us = points_us[i];
       waypoints_us = [];
     }
     // waypointsを追加
     else {
-      waypoints_us.push({ location: points[i], stopover: true });
+      waypoints_us.push({ location: points_us[i], stopover: true });
     }
   }
 
