@@ -72,14 +72,14 @@ function calculateAndDisplayRoute(map) {
     new google.maps.LatLng(36.901534, -111.452688),
     new google.maps.LatLng(37.006504, -110.214807),
     new google.maps.LatLng(32.779773, -106.173292),
-    //new google.maps.LatLng(30.895045, -102.795980),
-    //new google.maps.LatLng(29.551876, -95.098289),
-    //new google.maps.LatLng(29.961824, -90.073272),
-    //new google.maps.LatLng(33.925652, -84.176850),
-    //new google.maps.LatLng(38.604036, -77.350601),
-    //new google.maps.LatLng(38.885917, -77.047033),
-    //new google.maps.LatLng(40.122410, -74.459341),
-    //new google.maps.LatLng(40.712050, -74.043890)
+    new google.maps.LatLng(30.895045, -102.795980),
+    new google.maps.LatLng(29.551876, -95.098289),
+    new google.maps.LatLng(29.961824, -90.073272),
+    new google.maps.LatLng(33.925652, -84.176850),
+    new google.maps.LatLng(38.604036, -77.350601),
+    new google.maps.LatLng(38.885917, -77.047033),
+    new google.maps.LatLng(40.122410, -74.459341),
+    new google.maps.LatLng(40.712050, -74.043890)
   ];
   
   var start_us = null, waypoints_us = [], end_us = null;
