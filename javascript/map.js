@@ -73,7 +73,7 @@ function calculateAndDisplayRoute(map) {
     new google.maps.LatLng(37.006504, -110.214807),
     new google.maps.LatLng(32.789151, -106.326939),
     new google.maps.LatLng(30.895045, -102.795980),
-    new google.maps.LatLng(29.551876, -95.098289),
+    //new google.maps.LatLng(29.551876, -95.098289),
     new google.maps.LatLng(29.961824, -90.073272),
     new google.maps.LatLng(33.925652, -84.176850),
     new google.maps.LatLng(38.604036, -77.350601),
