@@ -133,18 +133,14 @@ function calculateAndDisplayRoute(map) {
   var start_au = new google.maps.LatLng(-16.877844, 145.749954);  
   var end_au = new google.maps.LatLng(-33.939716, 151.175288);
   var waypoints_au = [
-    { location: new google.maps.LatLng(34.010350, -118.496184) },
-    { location: new google.maps.LatLng(33.008058, -116.955410) },
-    { location: new google.maps.LatLng(33.254149, -115.472654) },
-    { location: new google.maps.LatLng(36.138250, -115.096837) },
-    { location: new google.maps.LatLng(34.866481, -111.759951) },
-    { location: new google.maps.LatLng(36.059168, -112.109308) },
-    { location: new google.maps.LatLng(36.901534, -111.452688) },
-    { location: new google.maps.LatLng(37.006504, -110.214807) },
+    { location: new google.maps.LatLng(-19.255118, 146.821899) },
+    { location: new google.maps.LatLng(-25.282932, 152.902980) },
+    { location: new google.maps.LatLng(-27.470818, 153.023852) },
   ];
   var request_au = {
     origin: start_au,
     destination: end_au,
+    waypoints: waypoints_au,
     travelMode: 'DRIVING'
   };
   new google.maps.DirectionsService().route(request_au, function(result, status) {
