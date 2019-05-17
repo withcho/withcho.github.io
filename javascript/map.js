@@ -81,13 +81,32 @@ function calculateAndDisplayRoute(map) {
     new google.maps.LatLng(40.122410, -74.459341),
     new google.maps.LatLng(40.712050, -74.043890)
   ];
-  
+  var content_us = [
+    "サンフランシスコ",
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    "ニューヨーク"
+  ];
   var start_us = null, waypoints_us = [], end_us = null;
   var request_us = {};
   var request_us_index = 0;
   
   for (var i = 0; i < points_us.length; i++) {
-    makeMarker(points_us[i], map);
+    makeMarker(points_us[i], map, content_us[i]);
     // 開始経緯度をセット
     if (start_us == null) {
       start_us = points_us[i];
@@ -156,16 +175,20 @@ function calculateAndDisplayRoute(map) {
           strokeWeight: 5
         }
       });
-      makeMarker(start_au, map);
-      makeMarker(end_au, map);
+      makeMarker(start_au, map, "ケアンズ");
+      makeMarker(end_au, map, "シドニー");
     }
   });
 }
 
-function makeMarker(position, map) {
-  new google.maps.Marker({
+function makeMarker(position, map, content) {
+  var marker = new google.maps.Marker({
     position: position,
     map: map,
     icon: new google.maps.MarkerImage('/images/pin.png'),
+  });
+  marker.addListener("click", function(){
+    new google.maps.InfoWindow().setContent(content);
+    new google.maps.InfoWindow().open(map, marker);
   });
 }
