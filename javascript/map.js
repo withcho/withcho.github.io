@@ -182,7 +182,7 @@ function calculateAndDisplayRoute(map) {
 }
 
 var infoWindow = new google.maps.InfoWindow();
-function makeMarker(position, map, content) {
+var makeMarker = function(position, map, content) {
   var marker = new google.maps.Marker({
     position: position,
     map: map,
