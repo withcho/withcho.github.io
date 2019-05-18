@@ -181,6 +181,7 @@ function calculateAndDisplayRoute(map) {
   });
 }
 
+var infoWindow = new google.maps.InfoWindow();
 function makeMarker(position, map, content) {
   var marker = new google.maps.Marker({
     position: position,
@@ -188,7 +189,7 @@ function makeMarker(position, map, content) {
     icon: new google.maps.MarkerImage('/images/pin.png'),
   });
   marker.addListener("click", function(){
-    new google.maps.InfoWindow().setContent(content);
-    new google.maps.InfoWindow().open(map, marker);
+    infoWindow.setContent(content);
+    infoWindow.open(map, marker);
   });
 }
