@@ -181,8 +181,8 @@ function calculateAndDisplayRoute(map) {
   });
 }
 
-var infoWindow = new google.maps.InfoWindow();
-var makeMarker = function(position, map, content) {
+function makeMarker(position, map, content) {
+  var infoWindow = new google.maps.InfoWindow();
   var marker = new google.maps.Marker({
     position: position,
     map: map,
