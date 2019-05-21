@@ -5,7 +5,7 @@
   right: 0;
   bottom: 0;
   height: 31px;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(0, 0, 0, 0.6);
   background-image: url(/images/texture.png);
 }
 
@@ -39,12 +39,12 @@
   width: 100%;
   height: calc(100% - 31px);
   text-align: center;
-  background: white;
+  background: rgba(0, 0, 0, 0.6);
   background-image: url(/images/texture.png);
-  opacity: 0.6;
   display: none;
   font-size: 24px;
   font-family: Century Gothic;
+  color: white;
 }
 
 #menu-list {
