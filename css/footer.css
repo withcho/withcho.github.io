@@ -5,7 +5,7 @@
   top:0;
   width: 6%;
   height: 100%;
-  background: #FFBA84;
+  background: white;
   background-image: url(/images/texture.png);
 }
 
@@ -39,7 +39,7 @@
   width: 94%;
   height: 100%;
   text-align: center;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(255, 186, 132, 0.6);
   background-image: url(/images/texture.png);
   display: none;
   font-size: 24px;
