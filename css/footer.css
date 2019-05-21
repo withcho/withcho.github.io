@@ -3,8 +3,8 @@
   position: absolute;
   left: 0;
   top:0;
-  bottom: 0;
-  width: 60px;
+  width: 10%;
+  height: 100%;
   background: rgba(0, 0, 0, 0.6);
   background-image: url(/images/texture.png);
 }
@@ -34,9 +34,9 @@
 #menu-wrap {
   position: absolute;
   z-index: 4;
-  left: 60px;
-  width: calc(100% - 60px);
+  left: 10%;
   top: 0;
+  width: 90%;
   height: 100%;
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
