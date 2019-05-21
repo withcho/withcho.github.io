@@ -12,9 +12,9 @@
 #Menu {
   z-index: 5;
   position: absolute;
-  left: 50%;
+  left: 0;
   transform: translateX(-50%);
-  bottom: 0;
+  top: 50%;
   border-radius: 200px 200px 0 0 / 35px 35px 0 0;
   background-color: #FFBA84;
   background-image: url(/images/texture.png);
