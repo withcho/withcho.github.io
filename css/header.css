@@ -8,7 +8,7 @@
   background: white;
   background-image: url(/images/texture.png);
 }
-.menu_item {
+.menu_item_ {
   transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
