@@ -8,7 +8,7 @@
   background: white;
   background-image: url(/images/texture.png);
 }
-#Navbar div {
+.menu_item {
   transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
