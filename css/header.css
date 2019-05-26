@@ -13,6 +13,9 @@
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
 }
+#Navbar ul li {
+  display: inline;
+}
 
 #Menu {
   z-index: 5;
