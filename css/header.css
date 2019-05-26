@@ -9,7 +9,7 @@
   background-image: url(/images/texture.png);
 }
 #Navbar ul li {
-  display: inline;
+  display: block;
   transform: rotate(-90deg) translateX(-100%);
   -moz-transform: rotate(-90deg) translateX(-100%);
   -webkit-transform: rotate(-90deg) translateX(-100%);
