@@ -10,7 +10,6 @@
 }
 #Navbar ul li {
   display: block;
-  margin: 50px auto;
   transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
