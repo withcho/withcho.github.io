@@ -8,6 +8,14 @@
   background: white;
   background-image: url(/images/texture.png);
 }
+#Navbar ul {
+  transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+#Navbar ul li {
+  display: inline;
+}
 
 #Menu {
   z-index: 5;
