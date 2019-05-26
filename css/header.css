@@ -9,6 +9,7 @@
   background-image: url(/images/texture.png);
 }
 .menu_item {
+  z-index: 5;
   position: absolute;
   transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
