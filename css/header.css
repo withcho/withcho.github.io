@@ -7,12 +7,11 @@
   height: 100%;
   background: white;
   background-image: url(/images/texture.png);
-  text-align: center;
-  vertical-align: middle;
 }
 #Navbar ul li {
   display: block;
   margin-top: 100px;
+  margin: auto;
   transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
