@@ -8,6 +8,7 @@
   background: white;
   background-image: url(/images/texture.png);
   text-align: center;
+  vertical-align: middle;
 }
 #Navbar ul li {
   display: block;
