@@ -18,7 +18,6 @@ $(function(){
   });
   $('#menu_item5').on('click', function() {
     $('.menu_wrap').hide();
-    $('#menu_wrap5').toggle("slide", 1000);
   });
 
 });
