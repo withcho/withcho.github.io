@@ -34,7 +34,7 @@ $(function() {
   });
   $('#menu_item5').on('click', function() {
     if($('.menu_wrap').css('display') != 'none') {
-      $('.menu_wrap').toggle("slide", 1000);
+      $('.menu_wrap').hide("slide", 1000);
     }
   });
 
