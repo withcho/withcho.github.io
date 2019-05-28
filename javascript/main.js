@@ -7,5 +7,9 @@ $(function() {
       $("#" + wrap_item).fadeIn(1000);
     }
   });
+  
+  $('#menu_item5').on('click', function() {
+    $('.menu_wrap').fadeOut(1000);
+  });
 
 });
