@@ -38,8 +38,8 @@
 .menu_item {
   z-index: 4;
   display: inline;
-  margin: 0 15px 0 15px;
-  font-size: 20px;
+  margin: 0 10px 0 10px;
+  font-size: 22px;
   font-weight: bold;
   font-family: Century Gothic;
   cursor: pointer;
