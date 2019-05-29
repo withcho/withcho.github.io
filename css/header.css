@@ -17,6 +17,10 @@
   background: white;
   background-image: url(/images/texture.png);
 }
+#Navbar {
+  text-align: center;
+  
+}
 
 .menu_item {
   z-index: 4;
