@@ -9,13 +9,14 @@
 
 #Navbar {
   z-index: 4;
-  position: absolute;
+  position: fixed;
   left: 0;
   top:0;
   width: 100vh;
   height: 6vw;
   background: white;
   background-image: url(/images/texture.png);
+  transform-origin: left top;
   transform: rotate(-90deg) translateX(-100%);
   -moz-transform: rotate(-90deg) translateX(-100%);
   -webkit-transform: rotate(-90deg) translateX(-100%);
