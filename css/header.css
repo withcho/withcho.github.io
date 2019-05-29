@@ -18,6 +18,7 @@
   background-image: url(/images/texture.png);
 }
 #Navbar {
+  list-style-type: none;
   text-align: center;
   
 }
