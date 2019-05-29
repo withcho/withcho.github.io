@@ -3,8 +3,8 @@
   position: absolute;
   left: 0;
   top:0;
-  width: 6%;
-  height: 100%;
+  width: 6vw;
+  height: 100vh;
   background: white;
   background-image: url(/images/texture.png);
 }
@@ -13,8 +13,8 @@
   position: absolute;
   left: 0;
   top:0;
-  width: 100vw;
-  height: 6vh;
+  width: 100vh;
+  height: 6vw;
   background: white;
 }
 
