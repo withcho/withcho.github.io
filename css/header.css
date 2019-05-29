@@ -17,10 +17,10 @@
   background: white;
   background-image: url(/images/texture.png);
 }
-#Navbar {
+#Navbar ul {
   list-style-type: none;
   text-align: center;
-  
+  height: 6vw;
 }
 
 .menu_item {
