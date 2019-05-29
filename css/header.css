@@ -16,9 +16,9 @@
   height: 6vw;
   background: white;
   background-image: url(/images/texture.png);
-  transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg) translateX(-100%);
+  -moz-transform: rotate(-90deg) translateX(-100%);
+  -webkit-transform: rotate(-90deg) translateX(-100%);
 }
 #Navbar ul {
   list-style-type: none;
