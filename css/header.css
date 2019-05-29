@@ -17,16 +17,10 @@
   background: white;
   background-image: url(/images/texture.png);
 }
-#Navbar ul {
-  display: inline;
-}
 
-.menu_item_ {
-  z-index: 5;
-  position: relative;
-  transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
+.menu_item {
+  z-index: 4;
+  display: inline;
   font-size: 20px;
   font-weight: bold;
   font-family: Century Gothic;
