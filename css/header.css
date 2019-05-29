@@ -8,6 +8,16 @@
   background: white;
   background-image: url(/images/texture.png);
 }
+
+#navbar_blank {
+  position: absolute;
+  left: 0;
+  top:0;
+  width: 100vw;
+  height: 6vh;
+  background: white;
+}
+
 .menu_item {
   z-index: 5;
   position: relative;
