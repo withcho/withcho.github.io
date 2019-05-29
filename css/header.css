@@ -19,8 +19,8 @@
 }
 #Navbar ul {
   list-style-type: none;
+  padding-left: 0;
   text-align: center;
-  height: 6vw;
 }
 
 .menu_item {
