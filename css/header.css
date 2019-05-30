@@ -1,12 +1,3 @@
-#navbar_blank {
-  position: absolute;
-  left: 0;
-  top:0;
-  width: 6vw;
-  height: 100vh;
-  background: white;
-}
-
 #Navbar {
   z-index: 4;
   position: fixed;
