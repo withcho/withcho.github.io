@@ -13,3 +13,8 @@ $(function() {
   });
 
 });
+
+var loading = function(){
+  $('#Loading').hide();
+}
+setTimeout(loading, 1000);
