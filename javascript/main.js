@@ -17,4 +17,4 @@ $(function() {
 var loading = function(){
   $('#Loading').hide();
 }
-setTimeout(loading, 1000);
+setTimeout(loading, 3000);
