@@ -22,7 +22,7 @@ h1:before {
   overflow: hidden;
   max-width: 4em;
   color: white;
-  animation: loading 3s linear;
+  animation: loading 4s linear;
 }
 
 #map {
