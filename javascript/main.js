@@ -14,7 +14,7 @@ $(function() {
 
 });
 
-//var loading = function(){
-//  $('#Loading').hide();
-//}
-//setTimeout(loading, 3000);
+var loading = function(){
+  $('#Loading').hide();
+}
+setTimeout(loading, 3000);
