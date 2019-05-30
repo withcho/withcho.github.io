@@ -15,6 +15,6 @@ $(function() {
 });
 
 var loading = function(){
-  $('#Loading').hide();
+  $('#Loading').fadeOut();
 }
 setTimeout(loading, 3000);
