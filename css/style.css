@@ -25,7 +25,7 @@ h1:before {
   position: absolute;
   overflow: hidden;
   max-width: 4em;
-  color: white;
+  color: rgb(252, 196, 146);
   animation: loading 10s linear;
 }
 
