@@ -35,6 +35,9 @@
   font-family: Century Gothic;
   cursor: pointer;
 }
+#.menu_item2 {
+  background-color: black;
+}
 
 .menu_wrap {
   position: absolute;
