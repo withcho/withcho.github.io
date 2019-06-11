@@ -1,6 +1,6 @@
 #Loading {
   z-index: 100;
-  position: fixed;
+  position: relative;
   left: 0;
   top: 0;
   width: 100vw;
@@ -9,12 +9,12 @@
   background-image: url(/images/texture.png);
 }
 h1 {
-  display: inline-block;
+  position: absolute;
   color: rgba(252, 196, 146, .3);
   font: 900 800% Century Gothic, "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: bold;
   letter-spacing: -4px;
-  margin: 0;
+  margin: auto;
 }
 @keyframes loading {
   from { max-width: 0; }
