@@ -14,9 +14,7 @@ h1 {
   font: 900 800% Century Gothic, "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: bold;
   letter-spacing: -4px;
-  margin: 0;
-  left : 50%;
-  top: 50%;
+  margin: 0 auto;
 }
 @keyframes loading {
   from { max-width: 0; }
