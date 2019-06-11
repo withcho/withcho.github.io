@@ -10,7 +10,8 @@
 }
 h1 {
   position: absolute;
-  color: rgba(252, 196, 146, .3);
+  color: rgb(255, 226, 201);
+  text-shadow: 0 6px 4px #aa9d88, 0px -2px 1px #f7e8dc;
   font: 900 800% Century Gothic, "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
   font-weight: bold;
   letter-spacing: -4px;
