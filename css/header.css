@@ -5,6 +5,7 @@
   top:0;
   width: 100vh;
   height: 6vw;
+  border: solid;
   background: white;
   background-image: url(/images/texture.png);
   -webkit-transform-origin: left top;
