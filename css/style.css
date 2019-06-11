@@ -17,8 +17,8 @@ h1 {
   margin: 0;
   top: 50%;
   left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  -webkit- transform: translateY(-50%) translateX(-50%);
+  transform: translateY(-60%) translateX(-50%);
+  -webkit- transform: translateY(-60%) translateX(-50%);
 }
 @keyframes loading {
   from { max-width: 0; }
