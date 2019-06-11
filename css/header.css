@@ -48,7 +48,7 @@
   width: 94%;
   height: 100%;
   text-align: center;
-  background: rgba(255, 186, 132, 0.6);
+  background: rgb(255, 186, 132);
   background-image: url(/images/texture.png);
   display: none;
   font-size: 24px;
