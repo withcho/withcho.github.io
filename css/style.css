@@ -60,3 +60,31 @@ h1:before {
   text-align: center;
   text-decoration: none;
 }
+
+.menu_wrap {
+  position: absolute;
+  z-index: 4;
+  left: 6%;
+  top: 0;
+  width: 94%;
+  height: 100%;
+  text-align: center;
+  background: rgb(255, 186, 132);
+  background-image: url(/images/texture.png);
+  display: none;
+  font-size: 24px;
+  font-family: Century Gothic;
+  color: white;
+}
+
+.script_list {
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  margin-top: 180px;
+}
+
+.script_item {
+  margin-bottom: 30px;  
+}
+
