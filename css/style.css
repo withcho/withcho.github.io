@@ -88,3 +88,12 @@ h1:before {
   margin-bottom: 30px;  
 }
 
+.box_about {
+  margin: 0 auto;
+  max-width: 460px;
+  background-color: white;
+  
+  padding: 15px;
+  outline: 1px solid #344e78;
+  outline-offset: -15px;
+}
