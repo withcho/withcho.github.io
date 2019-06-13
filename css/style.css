@@ -89,11 +89,14 @@ h1:before {
 }
 
 .box_about {
-  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  -webkit- transform: translateY(-50%) translateX(-50%);
   max-width: 460px;
   max-height: 600px;
   background-color: white;
-  background-image: url(/images/texture.png);
   padding: 15px;
   outline: 1px solid #344e78;
   outline-offset: -15px;
