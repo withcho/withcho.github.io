@@ -75,9 +75,6 @@ h1:before {
   font-size: 24px;
   font-family: Century Gothic;
   color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .script_list {
@@ -92,10 +89,11 @@ h1:before {
 }
 
 .box_about {
+  margin: 0 auto;
   max-width: 460px;
   max-height: 600px;
   background-color: white;
-  
+  background-image: url(/images/texture.png);
   padding: 15px;
   outline: 1px solid #344e78;
   outline-offset: -15px;
