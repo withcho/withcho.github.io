@@ -92,7 +92,6 @@ h1:before {
 }
 
 .box_about {
-  margin: auto;
   max-width: 460px;
   max-height: 600px;
   background-color: white;
