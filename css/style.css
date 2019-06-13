@@ -74,18 +74,6 @@ h1:before {
   display: none;
   font-size: 24px;
   font-family: Century Gothic;
-  color: white;
-}
-
-.script_list {
-  list-style-position: inside;
-  display: inline-block;
-  text-align: left;
-  margin-top: 180px;
-}
-
-.script_item {
-  margin-bottom: 30px;  
 }
 
 .box_about {
