@@ -8,7 +8,7 @@
   background: white;
   background-image: url(/images/texture.png);
 }
-h1 {
+#Loading h1 {
   position: absolute;
   color: rgb(255, 237, 221);
   text-shadow: 0 6px 4px #aa9d88, 0px -2px 1px #fff4ed;
@@ -24,7 +24,7 @@ h1 {
 @keyframes loading {
   from { max-width: 0; }
 }
-h1:before {
+#Loading h1:before {
   content: attr(data-content);
   position: absolute;
   overflow: hidden;
@@ -92,4 +92,7 @@ h1:before {
   width: 460px;
   padding-top: 75px;
   padding-bottom: 65px;
+}
+.text_about h2 {
+  margin-top: 0;
 }
