@@ -79,7 +79,7 @@
 .box_about {
   position: absolute;
   top: 50%;
-  left: vw;
+  left: 44vw;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
   max-width: 460px;
