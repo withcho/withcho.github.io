@@ -114,7 +114,10 @@
   text-align: center;
   color: white;
 }
-
 .arrow {
   margin: 0;
+  line-height: 23px;
+}
+.scroll {
+  margin-top: 10px; 
 }
