@@ -110,8 +110,9 @@
   z-index: 5;
   position: absolute;
   top: 30vh;
-  width: 94vw;
-  text-align: center;
+  left: 44vw;
+  transform: translateX(-50%);
+  -webkit- transform: translateX(-50%);
   color: white;
 }
 
@@ -119,8 +120,9 @@
   z-index: 5;
   position: absolute;
   bottom: 5vh;
-  width: 94vw;
-  text-align: center;
+  left: 44vw;
+  transform: translateX(-50%);
+  -webkit- transform: translateX(-50%);
   color: white;
 }
 .arrow {
