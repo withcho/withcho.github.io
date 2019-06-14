@@ -20,8 +20,8 @@ $('#menu_item5').on('click', function() {
 // show scroll
 $('#menu_item3_wrap').on('scroll', function() {
   if($(this).scrollTop() != 0) {
-    $('.scroll_arrow').fadeOut();
+    $('.show_equipment').fadeOut();
   } else {
-    $('.scroll_arrow').fadeIn();
+    $('.show_equipment').fadeIn();
   }
 });
