@@ -99,5 +99,7 @@
 
 #menu_item3_wrap img {
   width: 94vw;
-  overflow-x: hidden;
+}
+#menu_item3_wrap::-webkit-scrollbar{
+    display:none;
 }
