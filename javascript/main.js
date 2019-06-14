@@ -14,7 +14,7 @@ $(function() {
   });
 
   // show scroll
-  $(window).on('scroll', function() {
+  $('#menu_item3_wrap').on('scroll', function() {
     if($(this).scrollTop() != 0) {
       $('.scroll_arrow').fadeOut();
     } else {
