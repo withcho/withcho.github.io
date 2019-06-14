@@ -106,6 +106,15 @@
   vertical-align: bottom;
 }
 
+.text_equipment {
+  z-index: 5;
+  position: absolute;
+  top: 5vh;
+  width: 94vw;
+  text-align: center;
+  color: white;
+}
+
 .scroll_arrow {
   z-index: 5;
   position: absolute;
