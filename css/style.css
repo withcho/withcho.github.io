@@ -118,7 +118,7 @@
 .scroll_arrow {
   z-index: 5;
   position: absolute;
-  bottom: 5vh;
+  bottom: 30vh;
   width: 94vw;
   text-align: center;
   color: white;
