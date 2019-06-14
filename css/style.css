@@ -64,10 +64,10 @@
 .menu_wrap {
   position: absolute;
   z-index: 4;
-  left: 6%;
+  left: 6vw;
   top: 0;
-  width: 94%;
-  height: 100%;
+  width: 94vw;
+  height: 100vh;
   text-align: center;
   background: rgb(255, 186, 132);
   background-image: url(/images/texture.png);
