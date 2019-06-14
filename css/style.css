@@ -109,7 +109,7 @@
 .text_equipment {
   z-index: 5;
   position: absolute;
-  top: 5vh;
+  top: 30vh;
   width: 94vw;
   text-align: center;
   color: white;
@@ -118,7 +118,7 @@
 .scroll_arrow {
   z-index: 5;
   position: absolute;
-  bottom: 30vh;
+  bottom: 5vh;
   width: 94vw;
   text-align: center;
   color: white;
