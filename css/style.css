@@ -74,6 +74,7 @@
   display: none;
   font-size: 24px;
   font-family: Century Gothic;
+  overflow-x: hidden;
 }
 
 .box_about {
@@ -99,5 +100,4 @@
 
 #menu_item3_wrap img {
   width: 94vw;
-  overflow-x: hidden;
 }
