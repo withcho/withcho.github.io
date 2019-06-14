@@ -24,3 +24,4 @@ $('#menu_item3_wrap').on('scroll', function() {
   } else {
     $('.scroll_arrow').fadeIn();
   }
+});
