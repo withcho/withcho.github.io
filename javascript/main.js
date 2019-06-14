@@ -1,8 +1,3 @@
-var loading = function(){
-  $('#Loading').fadeOut();
-}
-setTimeout(loading, 6000);
-
 $(function() {
   
   // show menu
@@ -26,3 +21,8 @@ $(function() {
       $('.scroll_arrow').fadeIn();
     }
 });
+
+var loading = function(){
+  $('#Loading').fadeOut();
+}
+setTimeout(loading, 6000);
