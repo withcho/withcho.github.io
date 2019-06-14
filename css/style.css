@@ -76,6 +76,9 @@
   font-family: Century Gothic;
   overflow-x: hidden;
 }
+.menu_wrap::-webkit-scrollbar {
+  display: none;
+}
 
 .box_about {
   position: absolute;
