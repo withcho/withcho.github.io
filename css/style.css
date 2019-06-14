@@ -108,6 +108,9 @@
 
 .scroll_arrow {
   z-index: 5;
+  position: absolute;
+  top: -150px;
+  left: 0;
 }
 
 .arrow {
@@ -123,9 +126,6 @@
     height: 70px;
     margin: 50px auto 0;
     background-color: #FFF;
-    position: absolute;
-    top: -150px;
-    left: 0;
     -webkit-animation: arrow 2.5s ease 0s infinite normal;
     animation: arrow 2.5s ease 0s infinite normal;
 }
