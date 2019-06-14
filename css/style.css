@@ -106,6 +106,9 @@
   vertical-align: bottom;
 }
 
+.scroll_arrow {
+  z-index: 5;
+}
 
 .arrow {
     width: 1px;
