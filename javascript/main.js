@@ -1,10 +1,8 @@
 // Loading page
-$(function() {
-  var loading = function(){
-    $('#Loading').fadeOut();
-  }
-  setTimeout(loading, 6000);
-});
+var loading = function(){
+  $('#Loading').fadeOut();
+}
+setTimeout(loading, 6000);
 
 // show menu
 $('.menu_item').on('click', function() {
