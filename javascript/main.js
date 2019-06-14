@@ -13,13 +13,6 @@ $(function() {
     $('.menu_wrap').fadeOut();
   });
 
-  // show scroll
-  $('#menu_item3_wrap').on('scroll', function() {
-    if($(this).scrollTop() != 0) {
-      $('.scroll_arrow').fadeOut();
-    } else {
-      $('.scroll_arrow').fadeIn();
-    }
 });
 
 var loading = function(){
