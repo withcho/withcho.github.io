@@ -97,10 +97,12 @@
   padding-top: 75px;
   padding-bottom: 65px;
   word-break: normal;
-  margin: 0 20px;
 }
 .text_about h2 {
   margin-top: 0;
+}
+.text_about p {
+  margin: 0 20px;
 }
 
 #menu_item3_wrap img {
