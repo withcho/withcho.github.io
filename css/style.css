@@ -86,18 +86,18 @@
   left: 44vw;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
-  max-width: 460px;
+  max-width: 40vw;
   background-color: white;
   padding: 15px;
   outline: 1px solid #344e78;
   outline-offset: -15px;
 }
 .text_about {
-  width: 460px;
+  width: 40vw;
   padding-top: 75px;
   padding-bottom: 65px;
-  margin: 0 20px;
   word-break: normal;
+  margin: 0 20px;
 }
 .text_about h2 {
   margin-top: 0;
