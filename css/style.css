@@ -96,6 +96,8 @@
   width: 460px;
   padding-top: 75px;
   padding-bottom: 65px;
+  margin: 0 20px;
+  word-break: normal;
 }
 .text_about h2 {
   margin-top: 0;
