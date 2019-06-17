@@ -105,8 +105,16 @@
   margin: 0 20px;
 }
 
+#menu_item2_wrap h1 {
+  left: 44vw;
+  transform: translateX(-50%);
+  -webkit- transform: translateX(-50%);
+}
 #menu_item2_wrap ul {
   list-style-type: none;
+  left: 44vw;
+  transform: translateX(-50%);
+  -webkit- transform: translateX(-50%);
 }
 #menu_item2_wrap li {
   display: inline-block;
@@ -119,6 +127,9 @@
   justify-content: space-between;
   max-width: 960px;
   margin: 0 auto;
+  left: 44vw;
+  transform: translateX(-50%);
+  -webkit- transform: translateX(-50%);
 }
 #menu_item2_wrap dd {
   margin: 0;
