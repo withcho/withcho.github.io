@@ -131,6 +131,7 @@
 }
 #menu_item2_wrap dt {
   height: 200px;
+  border: solid 1px;
 }
 #menu_item2_wrap dd {
   margin: 0;
