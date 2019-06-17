@@ -129,8 +129,13 @@
 #menu_item2_wrap dl {
   width: 32%;
 }
+#menu_item2_wrap dt {
+  height: 231px;
+}
 #menu_item2_wrap dd {
   margin: 0;
+  padding: 15px;
+  height: 102px;
 }
 
 #menu_item3_wrap img {
