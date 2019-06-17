@@ -118,6 +118,7 @@
   -webkit-justify-content: space-between;
   justify-content: space-between;
   max-width: 960px;
+  margin: 0 auto;
 }
 #menu_item2_wrap dd {
   margin: 0;
