@@ -105,6 +105,18 @@
   margin: 0 20px;
 }
 
+#menu_item2_wrap div {
+  display: -webkit-flex;
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  max-width: 960px;
+}
+#menu_item2_wrap dd {
+  margin: 0;
+}
+
 #menu_item3_wrap img {
   width: 94vw;
   vertical-align: bottom;
