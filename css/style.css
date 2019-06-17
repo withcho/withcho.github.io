@@ -106,11 +106,11 @@
 }
 
 #menu_item2_wrap h1 {
-  transform: translateX(-6vw);
+  transform: translateX(-3vw);
 }
 #menu_item2_wrap ul {
   list-style-type: none;
-  transform: translateX(-6vw);
+  transform: translateX(-3vw);
 }
 #menu_item2_wrap li {
   display: inline-block;
@@ -123,7 +123,7 @@
   justify-content: space-between;
   max-width: 960px;
   margin: 0 auto;
-  transform: translateX(-6vw);
+  transform: translateX(-3vw);
 }
 #menu_item2_wrap dd {
   margin: 0;
