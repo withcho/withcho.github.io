@@ -105,15 +105,12 @@
   margin: 0 20px;
 }
 
-#menu_item2_wrap div {
-  postion: absolute;
-  left: 0;
-  top: 0;
-  width: 100vw;
-  height: 100vh;
+#menu_item2_wrap h1 {
+  transform: translateX(-6vw);
 }
 #menu_item2_wrap ul {
   list-style-type: none;
+  transform: translateX(-6vw);
 }
 #menu_item2_wrap li {
   display: inline-block;
@@ -126,6 +123,7 @@
   justify-content: space-between;
   max-width: 960px;
   margin: 0 auto;
+  transform: translateX(-6vw);
 }
 #menu_item2_wrap dd {
   margin: 0;
