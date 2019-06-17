@@ -125,6 +125,9 @@
   margin: 0 auto;
   transform: translateX(-3vw);
 }
+#menu_item2_wrap dl {
+  width: 32%;
+}
 #menu_item2_wrap dd {
   margin: 0;
 }
