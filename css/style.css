@@ -110,6 +110,7 @@
 }
 #menu_item2_wrap ul {
   list-style-type: none;
+  padding-left: 0;
   transform: translateX(-3vw);
 }
 #menu_item2_wrap li {
