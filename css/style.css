@@ -106,8 +106,10 @@
 }
 
 #menu_item2_wrap ul {
-  display: inline-block;
   list-style-type: none;
+}
+#menu_item2_wrap li {
+  display: inline-block;
 }
 #menu_item2_wrap div {
   display: -webkit-flex;
