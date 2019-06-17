@@ -28,9 +28,15 @@
       </ul>
     </div>
     <div class="menu_wrap" id="menu_item2_wrap">
-      <ul class="script_list">
-        <li class="script_item">BLOG</li>
-      </ul>
+      <div>
+        <script>
+          for (i = 1; i <= 6; i++) {
+            document.write("<dl>");
+            document.write("<dt>", i, "</dt>");
+            document.write("<dd>", i, "</dd>");
+            document.write("</dl>");
+          }
+      </div>
     </div>
     <div class="menu_wrap" id="menu_item3_wrap">
       <img src="/images/backpacker.jpg">
