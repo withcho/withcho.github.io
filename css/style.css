@@ -106,11 +106,13 @@
 }
 
 #menu_item2_wrap h1 {
+  position: absolute;
   left: 44vw;
   transform: translateX(-50%);
   -webkit- transform: translateX(-50%);
 }
 #menu_item2_wrap ul {
+  position: absolute;
   list-style-type: none;
   left: 44vw;
   transform: translateX(-50%);
@@ -120,6 +122,7 @@
   display: inline-block;
 }
 #menu_item2_wrap div {
+  position: absolute;
   display: -webkit-flex;
   display: flex;
   flex-wrap: wrap;
