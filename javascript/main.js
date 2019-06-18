@@ -25,3 +25,9 @@ $('#menu_item3_wrap').on('scroll', function() {
     $('.show_equipment').fadeIn();
   }
 });
+
+$(function(){
+  for (i = 1; i <= 6; i++) {
+    $("#short_text" + i).load("/blog/short_text/201902_" + i + ".html"); 
+  }
+});
