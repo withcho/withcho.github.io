@@ -131,7 +131,10 @@
 }
 #menu_item2_wrap dt {
   max-height: 200px;
-  border: solid 1px;
+}
+#menu_item2_wrap img {
+  width: 100%;
+  height: auto;
 }
 #menu_item2_wrap dd {
   margin: 0;
