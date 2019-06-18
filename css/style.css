@@ -82,7 +82,7 @@
 
 .box_about {
   position: absolute;
-  top: 50%;
+  top: 49%;
   left: 44vw;
   transform: translateY(-50%) translateX(-50%);
   -webkit- transform: translateY(-50%) translateX(-50%);
@@ -94,7 +94,7 @@
 }
 .text_about {
   width: 40vw;
-  padding-top: 75px;
+  padding-top: 65px;
   padding-bottom: 65px;
   word-break: normal;
 }
