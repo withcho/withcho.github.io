@@ -38,9 +38,10 @@
         <div>
 <script>
           for (i = 1; i <= 6; i++) {
+            $("#short_text" + i).load("/blog/short_text/201902_" + i); 
             document.write("<dl>");
             document.write("<dt><a><img src='/blog/images/blue", i, ".jpg'></a></dt>");
-            document.write("<dd><p><object data='/blog/short_text/201902_", i, ".txt'></object></p></dd>");
+            document.write("<dd id='short_text", i, "'></dd>");
             document.write("</dl>");
           }
 </script>
