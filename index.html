@@ -86,6 +86,9 @@
   <script src="javascript/main.js" type="text/javascript"></script>
   <script type="text/javascript">
     function date_trigger(blog_date) {
+      if (blog_date == "") {
+        blog_date = "201902";
+      }
       for (var i = 1; i <= 6; i++) {
         $("#short_text" + i).load("/blog/short_text/" + blog_date + "_" + i + ".html"); 
       }
