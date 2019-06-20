@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Home | With Cho</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
+</head>
+  
+<body>
+  <section id="Loading">
+    <h1 data-content="CHO">CHO</h1>
+  </section>
+  <header>
+    <nav id="Navbar">
+      <ul>
+        <li class="menu_item" id="menu_item1" style="color: #A5DEE4;">CONTACT</li>
+        <li class="menu_item" id="menu_item2" style="color: white;">BLOG</li>
+        <li class="menu_item" id="menu_item3" style="color: #A5DEE4;">EQUIPMENT</li>
+        <li class="menu_item" id="menu_item4" style="color: #A5DEE4;">ABOUT</li>
+        <li class="menu_item" id="menu_item5" style="color: #A5DEE4;">HOME</div>
+      </ul>
+    </nav>
+    <div class="menu_wrap" id="menu_item1_wrap">
+      <ul class="script_list">
+        <li class="script_item">CONTACT</li>
+      </ul>
+    </div>
+    <div class="menu_wrap" id="menu_item2_wrap">
+      <div>
+        <h1 style="font-size: 60px;">BLOG</h1>
+        <ul>
+          <li>2019/02</li>
+          <li>2019/03</li>
+          <li>2019/04</li>
+        </ul>
+        <div>
+<script>
+          for (i = 1; i <= 6; i++) { 
+            document.write("<dl>");
+            document.write("<dt><a><img src='/blog/images/blue", i, ".jpg'></a></dt>");
+            document.write("<dd id='short_text", i, "'></dd>");
+            document.write("</dl>");
+          }
+</script>
+        </div>
+      </div>
+    </div>
+    <div class="menu_wrap" id="menu_item3_wrap">
+      <img src="/images/backpacker.jpg">
+      <div class="show_equipment">
+        <div class="text_equipment">
+          <h1 style="font-size: 60px;">EQUIPMENT</h1>
+          <p>私の旅の装備を紹介する</p>
+        </div>
+        <div class="scroll_arrow">
+          <p class="arrow">|</p>
+          <p class="arrow">|</p>
+          <p class="scroll">Scroll</p>
+        </div>
+      </div>
+    </div>
+    <div class="menu_wrap" id="menu_item4_wrap">
+      <div class="box_about">
+        <div class="text_about">
+          <h1 style="font-size: 60px;">ABOUT</h1>
+          <p>
+            12321312312312132123123123<br>
+            1231231231231<br>
+            1231231231231231231231
+          </p>
+        </div>
+      </div>
+    </div>
+  </header>
+  
+  <div id="map"></div>
+  <a href="/" id="logo">CHO</a>
+
+  <!-- js start -->
+  <script src="javascript/map.js" type="text/javascript"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDklN-sD994VeX5zoOD0oit7JD11IyGRcc&callback=initMap" async defer></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script src="javascript/main.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    $(function() {
+      for (var i = 1; i <= 6; i++) {
+        $("#short_text" + i).load("/blog/short_text/201902_" + i + ".html"); 
+      }
+    });
+  </script>
+  <!-- js end -->
+</body>
+</html>
