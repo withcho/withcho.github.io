@@ -115,6 +115,7 @@
 }
 #menu_item2_wrap li {
   display: inline-block;
+  cursor: pointer;
 }
 #menu_item2_wrap div div {
   display: -webkit-flex;
