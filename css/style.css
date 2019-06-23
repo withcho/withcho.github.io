@@ -131,6 +131,7 @@
   width: 32%;
 }
 #menu_item2_wrap dt {
+  position: relative;
   max-height: 170px;
 }
 #menu_item2_wrap img {
@@ -138,8 +139,20 @@
   height: auto;
 }
 #menu_item2_wrap .mask {
+  position: absolute;
+  display: grid;
+  align-items: center;
   width: 100%;
-  height: auto;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color:	rgba(0, 0, 0, .5);
+  opacity: 0;
+  color: white;
+}
+#menu_item2_wrap .mask:hover {
+  opacity: 1;
+　transition:all 0.6s ease;
 }
 #menu_item2_wrap dd {
   margin: 0;
