@@ -136,7 +136,7 @@
 }
 #menu_item2_wrap img {
   width: 100%;
-  height: auto;
+  max-height: 170px;
 }
 #menu_item2_wrap .mask {
   position: absolute;
